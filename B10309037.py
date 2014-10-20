@@ -1,0 +1,5 @@
+weight=int(input('輸入你的體重(kg)\n'))
+high=int(input('輸入你的身高(cm)\n'))
+high1=float(high/100)
+bmi=weight/(high1*high1)
+print ('你的bmi是%s' %bmi)
